@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <title>RENT A HERO</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=latin-ext" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" type="text/css" />
+
+</head>
+
+
+<body>
+  <div id="container">
+    <header>
+
+      <div class="logo">
+        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+      </div>
+
+      <div>
+        <nav>
+          <ul>
+            <li><a href="dodajherosa.html">dodaj herosa</a></li>
+            <li><a href="#">edytuj herosa</a></li>
+            <li><a href="#">usuń herosa</a></li>
+            <li><a href="#">wyczyść bazę</a></li>
+            <li><a href="#">szukaj herosów</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <aside>
+      <div class="koszykpusty">
+        <h1 class="koszyk1">Koszyk</h1>
+        <h1 class="koszyk2">Do zapłaty: 0,00 zł</h1>
+        <div>
+          <p class="koszyk3">Twój koszyk jest pusty.</p>
+        </div>
+      </div>
+
+      <div class="koszykpelny">
+        <h1 class="koszyk1">Koszyk</h1>
+        <h1 class="koszyk2">Do zapłaty: 0,00 zł</h1>
+
+        <img class="basket_item_image">
+        <img class="basket_item_image">
+        <img class="basket_item_image">
+      </div>
+
+    </aside>
+
+    <section class="herosi">
+      <div id="superman" class="heros">
+        <img src="images/superman.jpg" alt="superman">
+        <h2>Superman</h2>
+        <p>Cena wynajmu: 3500 zł/h</p>
+      </div>
+      <div id="hulk" class="heros">
+        <img src="images/hulk.jpg" alt="hulk">
+        <h2>Hulk</h2>
+        <p>Cena wynajmu: 25000 zł/h</p>
+      </div>
+      <div id="thor" class="heros">
+        <img src="images/thor.jpg" alt="thor">
+        <h2>Thor</h2>
+        <p>Cena wynajmu: 55000 zł/h</p>
+      </div>
+      <div id="ironman" class="heros">
+        <img src="images/ironman.jpg" alt="ironman">
+        <h2>Ironman</h2>
+        <p>Cena wynajmu: 75000 zł/h</p>
+      </div>
+      <div id="potter" class="heros">
+        <img src="images/potter.jpg" alt="Potter">
+        <h2>Potter</h2>
+        <p>Cena wynajmu: 125000 zł/h</p>
+      </div>
+      <div id="batman" class="heros">
+        <img src="images/batman.jpg" alt="batman">
+        <h2>Batman</h2>
+        <p>Cena wynajmu: 2000 zł/h</p>
+      </div>
+    </section>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <img class="imghero" src="images/superman.jpg" alt="superman">
+
+        <div class="describehero">
+          <h1 class="namehero">I'm the batman!</h1>
+          <p class="describe">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, sequi ullam est magnam, ab nesciunt quam minima in assumenda error. Fuga, ad adipisci veniam deserunt, quasi itaque fugiat at quos!</p>
+          <h2 class="pricehero">wynajem: 25 000 zł/h</h2>
+          <button id="add_to_basket">Dodaj do koszyka</button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Need a hero - Pure JS/CSS Aplikacja do ćwiczenia nabytej wiedzy o JavaScript</p>
+    </footer>
+    <script src="script.js"></script>
+
+  </div>
+
+
+
+</body>
+
+
+</html>

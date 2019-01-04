@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <title>RENT A HERO</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=latin-ext" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+  <div id="container">
+    <header class="dodajherosa">
+
+      <div class="logo">
+        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+      </div>
+
+      <div>
+        <nav>
+          <ul>
+            <li><a href="dodajherosa.html">dodaj herosa</a></li>
+            <li><a href="#">edytuj herosa</a></li>
+            <li><a href="#">usuń herosa</a></li>
+            <li><a href="#">wyczyść bazę</a></li>
+            <li><a href="#">szukaj herosów</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="formularz">
+      <div class="formularz">
+        <h1>Dodaj Herosa</h1>
+        <form action="x.php" enctype="multipart/form-data" method="get">
+          <p class="input"><input required autofocus type="text" name="nazwa bohatera" placeholder="Nazwa Bohatera"></p>
+
+          <p class="input"><input required autofocus type="text" name="Adres/nazwa zdjęcia" placeholder="Adres/nazwa zdjęcia"></p>
+
+          <p class="input"><input required autofocus type="text" name="cena wynajmu" placeholder="Cena wynajmu /h"></p>
+
+          <p class="input"><input class="opisbohatera" required autofocus type="text" name="Opis Bohatera" placeholder="Opis Bohatera"></p>
+          <button class="button">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>Need a hero - Pure JS/CSS Aplikacja do ćwiczenia nabytej wiedzy o JavaScript</p>
+    </footer>
+  </div>
+</body>
+
+</html>
